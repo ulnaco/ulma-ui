@@ -6,7 +6,7 @@ import {
 
 import { ULStyles } from '../ULStyles';
 
-export class ULButton extends React.Component {
+export class ULTitle extends React.Component {
 
   render() {
     return (
