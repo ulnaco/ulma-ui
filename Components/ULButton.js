@@ -11,13 +11,18 @@ export class ULButton extends React.Component {
   render() {
     return (
       <View>
-      {this.props.white &&
+      {this.props.style == 'white' &&
         <View style={ULStyles.buttonWhite}>
           <Text style={[ULStyles.colorBlack, ULStyles.textCenter]}>{this.props.text}</Text>
         </View>
       }
-      {this.props.primary &&
+      {this.props.style == 'primary' &&
         <View style={ULStyles.buttonPrimary}>
+          <Text style={[ULStyles.colorWhite, ULStyles.textCenter]}>{this.props.text}</Text>
+        </View>
+      }
+      {this.props.style == 'black' &&
+        <View style={ULStyles.buttonBlack}>
           <Text style={[ULStyles.colorWhite, ULStyles.textCenter]}>{this.props.text}</Text>
         </View>
       }

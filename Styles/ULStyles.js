@@ -26,13 +26,14 @@ export const ULStyles = StyleSheet.create({
     flexDirection: 'column',
     padding: ULStyleguide.spacing,
   },
-  screenPrimary: {
-    flex: 1,
-    flexDirection: 'column',
-    justifyContent: 'center',
-    alignItems: 'center',
+  backgroundWhite: {
+    backgroundColor: ULStyleguide.color.white,
+  },
+  backgroundBlack: {
+    backgroundColor: ULStyleguide.color.black,
+  },
+  backgroundPrimary: {
     backgroundColor: ULStyleguide.color.primary,
-    padding: ULStyleguide.spacing,
   },
   buttonPrimary: {
     paddingHorizontal: ULStyleguide.spacing*2,
