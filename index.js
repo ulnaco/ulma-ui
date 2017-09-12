@@ -7,7 +7,8 @@ export * from './Components/ULSubTitle'
 export * from './Components/ULTitle'
 
 // Utilites
-export * from './Utilites/ULStorage'
+// export * from './Utilites/ULStorage'
 
 // Styles
-export * from './ULStyles'
+export * from './Styles/ULStyles'
+export * from './Styles/ULStyleguide'

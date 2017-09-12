@@ -4,7 +4,7 @@ import {
   Text
 } from 'react-native';
 
-import { ULStyles } from '../ULStyles';
+import { ULStyles } from '../Styles/ULStyles';
 
 export class ULTitle extends React.Component {
 
@@ -12,10 +12,10 @@ export class ULTitle extends React.Component {
     return (
       <View>
         {this.props.lite &&
-          <Text style={[ULStyles.title, ULStyles.colorWhite]}>{this.props.text}</Text>
+          <Text style={[ULStyles.title, ULStyles.colorWhite, ULStyles.textCenter]}>{this.props.text}</Text>
         }
         {!this.props.lite &&
-          <Text style={ULStyles.title}>{this.props.text}</Text>
+          <Text style={[ULStyles.title, ULStyles.textCenter]}>{this.props.text}</Text>
         }
       </ View>
     )

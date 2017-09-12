@@ -4,7 +4,7 @@ import {
   Text
 } from 'react-native';
 
-import { ULStyles } from '../ULStyles';
+import { ULStyles } from '../Styles/ULStyles';
 
 export class ULSubTitle extends React.Component {
 
