@@ -4,19 +4,25 @@ import {
   Text
 } from 'react-native';
 
+import { ULStyles } from '../ULStyles';
 
 export class ULButton extends React.Component {
-  componentDidMount() {
-
-  }
 
   render() {
     return (
       <View>
-        <View>
-          <Text>Testy</Text>
+      {this.props.default &&
+        <View style={ULStyles.buttonWhite}>
+          <Text style={[ULStyles.colorBlack, ULStyles.textCenter]}>{this.props.text}</Text>
         </View>
+      }
+      {this.props.primary &&
+        <View style={ULStyles.buttonPrimary}>
+          <Text style={[ULStyles.colorWhite, ULStyles.textCenter]}>{this.props.text}</Text>
+        </View>
+      }
       </ View>
+
     )
   }
 }
