@@ -1,0 +1,16 @@
+{
+  "name": "ulna-ui",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-ulnaco:ulnaco/ulna-ui.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-native": "^0.48.3"
+  }
+}
