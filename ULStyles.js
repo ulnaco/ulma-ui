@@ -3,7 +3,7 @@ import {
   StyleSheet
 } from 'react-native';
 
-const styleguide = {
+export const styleguide = {
   color: {
     primary: '#4A90E2',
     black: '#4A4A4A',
@@ -25,6 +25,9 @@ export const ULStyles = StyleSheet.create({
   textCenter: {
     textAlign: 'center'
   },
+  window: {
+    flex: 1
+  },
   screen: {
     flex: 1,
     flexDirection: 'column',
@@ -40,17 +43,24 @@ export const ULStyles = StyleSheet.create({
   },
   buttonPrimary: {
     paddingHorizontal: styleguide.spacing*2,
-    paddingVertical: styleguide.spacing/2,
+    paddingVertical: styleguide.spacing/1.5,
     backgroundColor: styleguide.color.primary,
   },
   buttonWhite: {
     paddingHorizontal: styleguide.spacing*2,
-    paddingVertical: styleguide.spacing/2,
+    paddingVertical: styleguide.spacing/1.5,
     backgroundColor: styleguide.color.white,
   },
   buttonBlack: {
     paddingHorizontal: styleguide.spacing*2,
-    paddingVertical: styleguide.spacing/2,
+    paddingVertical: styleguide.spacing/1.5,
     backgroundColor: styleguide.color.black,
-  }
+  },
+  title: {
+    marginBottom: styleguide.spacing,
+    fontSize: 30,
+  },
+  subTitle: {
+    marginBottom: styleguide.spacing,
+  },
 });

@@ -18,7 +18,7 @@ export class ULButton extends React.Component {
       }
       {this.props.primary &&
         <View style={ULStyles.buttonPrimary}>
-          <Text style={[ULStyles.colorWhite, {textAlign: 'center'}]}>{this.props.text}</Text>
+          <Text style={[ULStyles.colorWhite, ULStyles.textCenter]}>{this.props.text}</Text>
         </View>
       }
       </ View>
