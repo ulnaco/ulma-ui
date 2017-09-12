@@ -14,7 +14,7 @@ export class ULButton extends React.Component {
     return (
       <View>
         <View>
-          <Text>Test</Text>
+          <Text>Testy</Text>
         </View>
       </ View>
     )
