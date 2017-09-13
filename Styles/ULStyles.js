@@ -39,16 +39,19 @@ export const ULStyles = StyleSheet.create({
     paddingHorizontal: ULStyleguide.spacing*2,
     paddingVertical: ULStyleguide.spacing/1.5,
     backgroundColor: ULStyleguide.color.primary,
+    marginBottom: ULStyleguide.spacing,
   },
   buttonWhite: {
     paddingHorizontal: ULStyleguide.spacing*2,
     paddingVertical: ULStyleguide.spacing/1.5,
     backgroundColor: ULStyleguide.color.white,
+    marginBottom: ULStyleguide.spacing,
   },
   buttonBlack: {
     paddingHorizontal: ULStyleguide.spacing*2,
     paddingVertical: ULStyleguide.spacing/1.5,
     backgroundColor: ULStyleguide.color.black,
+    marginBottom: ULStyleguide.spacing,
   },
   title: {
     marginBottom: ULStyleguide.spacing,
