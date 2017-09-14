@@ -48,3 +48,15 @@ import { ULSubTitle } from 'ulna-ui'
 <ULSubTitle lite={true} text="Hello World" />
 
 ```
+
+### ULListItem
+Props
+- **title** - Top title text
+- **subTitle** - Bigger and bold
+
+```
+import { ULListItem } from 'ulna-ui'
+
+<ULListItem title="Hello" subTitle="World" />
+
+```
