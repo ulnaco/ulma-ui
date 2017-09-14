@@ -22,7 +22,8 @@ export const ULStyles = StyleSheet.create({
     textAlign: 'center'
   },
   window: {
-    flex: 1
+    flex: 1,
+    paddingTop: ULStyleguide.spacing,
   },
   screen: {
     flex: 1,
