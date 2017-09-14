@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
 import {
-  StyleSheet
+  StyleSheet,
+  Dimensions
 } from 'react-native';
 
 import { ULStyleguide } from './ULStyleguide'
+
+var width = Dimensions.get('window').width;
 
 export const ULStyles = StyleSheet.create({
   colorPrimary: {
@@ -40,6 +43,7 @@ export const ULStyles = StyleSheet.create({
     paddingVertical: ULStyleguide.spacing/1.5,
     backgroundColor: ULStyleguide.color.primary,
     marginBottom: ULStyleguide.spacing,
+    width: width * .8,
   },
   buttonWhite: {
     paddingHorizontal: ULStyleguide.spacing*2,

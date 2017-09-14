@@ -10,7 +10,7 @@ export class ULButton extends React.Component {
 
   render() {
     return (
-      <View>
+      <View style={{flexDirection: 'row', justifyContent: 'center'}}>
       {this.props.style == 'white' &&
         <View style={ULStyles.buttonWhite}>
           <Text style={[ULStyles.colorBlack, ULStyles.textCenter]}>{this.props.text}</Text>
