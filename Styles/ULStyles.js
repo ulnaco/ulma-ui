@@ -65,4 +65,26 @@ export const ULStyles = StyleSheet.create({
   subTitle: {
     marginBottom: ULStyleguide.spacing,
   },
+  ListItem: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    backgroundColor: '#fff',
+    borderBottomColor: '#DCDCDC',
+    borderBottomWidth: 1,
+    borderTopColor: '#F0F0F0',
+    borderTopWidth: 1,
+    paddingVertical: ULStyleguide.spacing,
+  },
+  ListItemInner: {
+    width: width * .8,
+  },
+  ListItemTitle: {
+    color: ULStyleguide.color.black,
+    marginBottom: ULStyleguide.spacing/4,
+  },
+  ListItemSubTitle: {
+    fontWeight: 'bold',
+    fontSize: 30,
+    color: ULStyleguide.color.black,
+  },
 });
