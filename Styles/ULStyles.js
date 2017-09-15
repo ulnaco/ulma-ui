@@ -24,6 +24,7 @@ export const ULStyles = StyleSheet.create({
   window: {
     flex: 1,
     paddingTop: ULStyleguide.spacing,
+    paddingBottom: ULStyleguide.spacing*2,
   },
   screen: {
     flex: 1,

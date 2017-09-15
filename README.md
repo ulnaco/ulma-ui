@@ -53,6 +53,7 @@ import { ULSubTitle } from 'ulna-ui'
 Props
 - **title** - Top title text
 - **subTitle** - Bigger and bold
+- **subSubTitle** - Smaller on the bottom
 
 ```
 import { ULListItem } from 'ulna-ui'

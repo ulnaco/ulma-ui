@@ -14,6 +14,7 @@ export class ULListItem extends React.Component {
         <View style={ULStyles.ListItemInner}>
           <Text style={ULStyles.ListItemTitle}>{this.props.title}</Text>
           <Text style={ULStyles.ListItemSubTitle}>{this.props.subTitle}</Text>
+          {this.props.subSubTitle && <Text style={ULStyles.ListItemTitle}>{this.props.subSubTitle}</Text>}
         </View>
       </ View>
     )
